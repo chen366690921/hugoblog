@@ -1,36 +1,36 @@
 ---
-title: 短代码
+title: 短代碼
 date: 2026-01-26
-description: 展示 Stack 主题支持的各种短代码。
+description: 展示 Stack 主題支持的各種短代碼。
 categories:
     - Documentation
 tags:
     - 隐私
 ---
 
-Stack 主题还提供了一些自定义短代码来增强你的内容。
+Stack 主題還提供了一些自定義短代碼來增強你的內容。
 
 <!--more-->
 
 ## 引用 (Quote)
 
-`quote` 短代码允许你显示带有作者、来源和 URL 的引用。
+`quote` 短代碼允許你顯示帶有作者、來源和 URL 的引用。
 
-{{< quote author="一位名人" source="他们写的书" url="https://zh.wikipedia.org/wiki/Book">}}
+{{< quote author="一位名人" source="他們寫的書" url="https://zh.wikipedia.org/wiki/Book">}}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 {{< /quote >}}
 
 ### 用法
 
 ```markdown
-{{</* quote author="作者名字" source="文章标题" url="https://example.com" */>}}
-这里是引用内容。
+{{</* quote author="作者名字" source="文章標題" url="https://example.com" */>}}
+這裡是引用內容。
 {{</* /quote */>}}
 ```
 
-## 视频 (Video)
+## 視頻 (Video)
 
-`video` 短代码允许你嵌入自托管或远程视频文件。
+`video` 短代碼允許你嵌入自託管或遠程視頻文件。
 
 {{< video src="https://www.w3schools.com/html/mov_bbb.mp4" >}}
 
@@ -42,7 +42,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Bilibili
 
-嵌入来自 Bilibili 的视频。支持 `av` 和 `bv` 号。
+嵌入來自 Bilibili 的視頻。支持 `av` 和 `bv` 號。
 
 {{< bilibili "BV1634y1t7xR" >}}
 
@@ -54,7 +54,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## YouTube
 
-Hugo 内置的 YouTube 短代码。
+Hugo 內置的 YouTube 短代碼。
 
 {{< youtube ZJthWmvUzzc >}}
 
@@ -64,9 +64,10 @@ Hugo 内置的 YouTube 短代码。
 {{</* youtube ZJthWmvUzzc */>}}
 ```
 
-## 腾讯视频 (Tencent Video)
 
-嵌入来自腾讯视频的视频。
+## 騰訊視頻 (Tencent Video)
+
+嵌入來自騰訊視頻的視頻。
 
 {{< tencent "u00306ng962" >}}
 
@@ -76,9 +77,10 @@ Hugo 内置的 YouTube 短代码。
 {{</* tencent "u00306ng962" */>}}
 ```
 
+
 ## GitLab Snippet
 
-嵌入来自 GitLab 的代码片段。
+嵌入來自 GitLab 的代碼片段。
 
 {{< gitlab 2349278 >}}
 
@@ -88,9 +90,10 @@ Hugo 内置的 YouTube 短代码。
 {{</* gitlab 2349278 */>}}
 ```
 
-## 图表 (Diagrams)
 
-Stack 出箱即用地支持 [Mermaid](https://mermaid.js.org/) 图表。
+## 圖表 (Diagrams)
+
+Stack 出箱即用地支持 [Mermaid](https://mermaid.js.org/) 圖表。
 
 ```mermaid
 graph TD;
@@ -102,7 +105,7 @@ graph TD;
 
 ### 用法
 
-将你的 Mermaid 代码包裹在语言设置为 `mermaid` 的代码块中。
+將你的 Mermaid 代碼包裹在語言設置為 `mermaid` 的代碼塊中。
 
 <pre><code>```mermaid
 graph TD;
