@@ -1,0 +1,15 @@
+:root {
+    --accent-color: #2b6cb0;
+    --body-background: #f7f9fb;
+    --card-background: #ffffff;
+    --code-background-color: #eef2f7;
+    --code-text-color: #2b6cb0;
+
+    &[data-scheme="dark"] {
+        --accent-color: #38bdf8;
+        --body-background: #0f172a;
+        --card-background: #1a2332;
+        --code-background-color: #1e293b;
+        --code-text-color: #fbbf24;
+    }
+}

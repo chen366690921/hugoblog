@@ -13,3 +13,11 @@
 
     [social.params]
         icon = "brand-twitter"
+
+[[social]]
+    identifier = "YouTube"
+    name       = "YouTube"
+    url        = "https://www.youtube.com/@chendust"
+
+    [social.params]
+        icon = "brand-youtube"
