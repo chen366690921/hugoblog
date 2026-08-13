@@ -31,7 +31,7 @@ favicon        = "img/favicon.ico"
     provider = "giscus"
 
      [comments.giscus]
-        repo             = "chen366690921/myblog"
+        repo             = "chen366690921/hugoblog"
         repoID           = "R_kgDOT16M8g"
         category         = "Announcements"
         categoryID       = "DIC_kwDOT16M8s4DDQ3-"
