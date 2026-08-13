@@ -28,7 +28,22 @@ favicon        = "img/favicon.ico"
 [comments]
     # See complete configuration in config/_default/params.toml
     enabled  = true
-    provider = "disqus"
+    provider = "giscus"
+
+     [comments.giscus]
+        repo             = "chen366690921/myblog"
+        repoID           = "R_kgDOT16M8g"
+        category         = "Announcements"
+        categoryID       = "DIC_kwDOT16M8s4DDQ3-"
+        mapping          = "pathname"
+        lightTheme       = "light"
+        darkTheme        = "dark_dimmed"
+        reactionsEnabled = 1
+        emitMetadata     = 0
+        inputPosition    = "top"
+        lang             = "zh-CN"
+        strict           = 0
+        loading          = "lazy"
 
 # GDPR Cookie Consent Configuration
 # When enabled, analytics and functional cookies require user consent
